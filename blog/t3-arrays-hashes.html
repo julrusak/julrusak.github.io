@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Julianna Rusakiewicz</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="blog-template.css">
+</head>
+
+  <header>
+    <h1>JULIANNA RUSAKIEWICZ</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="about.html">About</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a href="blog-index.html">Blog</a></li>
+      <li><a href="connect.html">Connect</a></li>
+    </ul>
+
+  </nav>
+
+<main>
+  <h1>Arrays and Hashes</h1>
+  <h2>Collections in Ruby.</h2>
+  <h4>June 30, 2015</h4>
+
+  <section>
+    <p>
+        Arrays and hashes in Ruby are useful collections of objects or variables that you can easily access when needed. Both are useful though they operate slightly differently. Let's take a look at these differences so you can determine which one is best for your program.
+    </p>
+    <p>
+        Like a virtual filing cabinet where each drawer holds information that you have determined, arrays hold variables, integers, or strings. To initilize an array we call it equal to empty brackets.
+        <pre class="ruby">myArray = []</pre>
+        This array is empty and waiting for you to fill it with elements.
+        <pre class="ruby">myArray = [1, 5.5, "ten"]</pre>
+        This array contains an integer, 1, a float, 5.5, and a string, "ten". To access these elements, you call the location number, think of each drawer in your filing cabinet having a number on the door.
+        <pre class="ruby">myArray [0]</pre>
+        The first element is always 0 so if you have an array of 4 different integers, you have elements 0 through 3.
+    </p>
+    <p>
+        Hashes, on the other hand, will hold exactly what an array can but instead of the doors of your vitual filing cabinet having a predetermined number you must assign each location a label or key.
+        <pre class="ruby">myHash = {
+           'strawberry'   =>  'red',
+           'blueberry'    =>  'blue',
+           'banana'       =>  'yellow',
+           'watermelon'   =>  'red'
+           }</pre>
+        Here we have mapped fruits based on their color. Now if you call the color red you'll get strawberry and watermelon. This can be useful when dealing with multiple objects.
+    </p>
+    <p>
+        Happy coding!
+    </p>
+
+
+  </section>
+</main>
+
+<footer>
+    <a href="http://facebook.com/julianna.rus"><img src="imgs/facebook.png" alt="facebook" height="25" width="25"></a>
+    <a href="http://twitter.com/juliannarusak"><img src="imgs/twitter.png" alt="twitter" height="25" width="25"></a>
+    <a href="#"><img src="imgs/rss.png" alt="rss" height="25" width="25"></a>
+    <a href="#"><img src="imgs/share.png" alt="share" height="25" width="25"></a>
+    <a href="#"><img src="imgs/mail.png" alt="mail" height="25" width="25"></a>
+
+  </footer>
+</html>
