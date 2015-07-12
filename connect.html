@@ -3,7 +3,7 @@
 <head>
   <title>Julianna Rusakiewicz</title>
   <meta charset="UTF-8">
-  <link rel="stylesheet" type="text/css" href="index-home.css">
+  <link rel="stylesheet" type="text/css" href="connect.css">
 </head>
 
   <header>
@@ -23,14 +23,31 @@
   <main>
 
       <section>
-        <h4>Welcome!</h4>
-        <p>Julianna is a multi-media artist turned aspiring web developer. She is a director, lighting designer media artist, and photographer, among other things. She has been dabbling with web design for over a year now and has decided to fully immerse herself in the tech community by attending Dev Bootcamp in NYC! </p>
+        <h3>Drop me a line!</h3>
+
+<form action="mailto:juliannarusak@gmail.com" enctype="text/plain">
+    <div>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="user_name" />
+    </div>
+    <div>
+        <label for="mail">E-mail:</label>
+        <input type="email" id="mail" name="user_email" />
+    </div>
+    <div>
+        <label for="msg">Message:</label>
+        <textarea id="msg" name="user_message"></textarea>
+    </div>
+
+    <div class="button">
+        <button type="submit">Send your message</button>
+    </div>
+</form>
+        </p>
       </section>
 
 
-      <aside>
-        <img src="blog/imgs/Julianna.JPEG" height="185" width"225">
-      </aside>
+
 
 
   </main>
