@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Julianna Rusakiewicz</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="blog-template.css">
+</head>
+
+  <header>
+    <h1>JULIANNA RUSAKIEWICZ</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="../about.html">About</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a href="blog-index.html">Blog</a></li>
+      <li><a href="../connect.html">Connect</a></li>
+    </ul>
+
+  </nav>
+
+<main>
+  <h1>Classes in Ruby</h1>
+  <h2>When and Why?</h2>
+  <h4>July 18, 2015</h4>
+
+  <section>
+    <p>
+      When I first learned about classes in coding, it was in a course titled Creative Coding. The nature of the course was to learn how to design and animate using code. So we learned how to draw a lot of shapes, then we learned how to animate these shapes by adding 1 to their X and Y coordinates using loops. Using this method was super easy when you just want to make a circle float up the screen, but what if you want to make a game with a series of bubbles that dissapear when you touch them? You can animate each bubble, but that would waste a lot of time, so this is where you would use a class!
+    </p>
+    <p>
+      A class will create an object that can be used over and over. Within the class you can define a series of methods which tell your object what to do. Creating a bubble game can be as simple as this;
+
+      <pre class="ruby">
+        class Bubble
+          def float
+            #code that will animate an elipse to rise
+          end
+
+          def pop
+            #code that will make the bubble disappear when the mouse clicks on the ellipse.
+          end
+      </pre>
+      After you create a new bubble, you can call all of the methods on the bubble. For example;
+
+      <pre class="ruby">
+        bubbleOne = Bubble.new
+        bubbleOne.float
+        bubbleOne.pop
+      </pre>
+    </p>
+    <p>
+      However, there's a huge problem in my example. Ruby is a back-end language. Meaning we would create shapes and animate in a different language altogether. I just wanted to use that example because it made so much sense to me when learning classes. Classes are great when you want a game with tons of bubbles, then you don't have to code out a hundred bubbles, you make a class which acts like a container holding as many bubbles as you will eventually call for, complete with all the behaviors you need. So when would you use classes in Ruby? Anytime you will call an object more than once. Maybe you are buiding a calculator so you would want a math class.
+
+      <pre class="ruby">
+        class Calculator
+          def addition (x, y)
+            return x + y
+          end
+
+          def subtraction (x, y)
+            return x - y
+          end
+        end
+      </pre>
+
+      You can go on and on with the math methods and now you have built a calculator!
+    </p>
+        Happy Coding!
+    </p>
+  </section>
+</main>
+
+<footer>
+    <a href="http://facebook.com/julianna.rus"><img src="imgs/facebook.png" alt="facebook" height="25" width="25"></a>
+    <a href="http://twitter.com/juliannarusak"><img src="imgs/twitter.png" alt="twitter" height="25" width="25"></a>
+    <a href="#"><img src="imgs/rss.png" alt="rss" height="25" width="25"></a>
+    <a href="#"><img src="imgs/share.png" alt="share" height="25" width="25"></a>
+    <a href="#"><img src="imgs/mail.png" alt="mail" height="25" width="25"></a>
+
+  </footer>
+</html>
