@@ -1,6 +1,7 @@
 html {
   background: #FFFFDB;
   font-family: Palatino, serif;
+  line-height: 95%;
 }
 
 header {
@@ -22,25 +23,39 @@ nav ul li {
   display: inline-block;
   padding: 0 25px;
 }
-
-main {
-  margin-left: 25%;
+section {
+  position: static;
+  margin-bottom: 25%;
 }
 
-table td {
-  text-align: center;
-  padding: 5px 15px;
-  margin-left: auto;
-  margin-right: auto;
+.left {
+  position: relative;
+  width: 45%;
+  float:left;
+  text-align: right;
+  border-right: 1px solid #dedede;
+  padding-right: 15px;
+
 }
 
+.right{
+  margin-top: 5em;
+  position: relative;
+  width: 50%;
+  float: right;
+  text-align: left;
+}
+
+#break {
+  margin-top: 5em;
+}
 
 footer {
-   position:relative;
+   position: absolute;
    padding: 10px 0px;
    left:10px;
    bottom:10px;
-   top:10px;
+   top:1500px;
    height:50px;
    width:100%;
    border-top: 1px solid #dedede;
