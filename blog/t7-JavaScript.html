@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Julianna Rusakiewicz</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="blog-template.css">
+</head>
+
+  <header>
+    <h1>JULIANNA RUSAKIEWICZ</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="../about.html">About</a></li>
+      <li><a href="../resume.html">Resume</a></li>
+      <li><a href="blog-index.html">Blog</a></li>
+      <li><a href="../connect.html">Connect</a></li>
+    </ul>
+
+  </nav>
+
+<main>
+  <h1>Ruby Versus JavaScript</h1>
+  <h2>The same, but different.</h2>
+  <h4>August 1, 2015</h4>
+
+  <section>
+    <p>
+      JavaScript and Ruby have much of the same qualities, which makes it easier to understand one if you know the other. They both accept integers, strings, booleans, and floats, among other objects. They both deal with arrays and hashes. They both have built-in methods or functions and BONUS some of them are abbreviated the same way! Like .push to add a value into an array and .map to iterate through an array! Some others are .reverse, to reverse an array or string, and .slice to remove a section of an array. This is super helpful when you are starting out, like I am. I find that I still have to look up a few key terms and the syntax is a bit different, but as a newbie, I can rely on some staple functions in my programs. Keep in mind that for each method called in JavaScript, you must follow it with (). Inside may go arguments or it may be left blank, but you need the parentheses. So let's look at some syntax and break down Ruby classes vs. JavaScript constructor functions!
+    </p>
+
+    <p>
+      A Ruby class contains methods, like so;
+
+    <pre class="ruby">
+        class Human
+          def initialize (name, location)
+            @name = name
+            @location = location
+          end
+
+          def greeting
+            puts "Hi #{@name}!"
+          end
+
+          def small_talk
+            puts "How's the weather in #{@location}?"
+          end
+    </pre>
+
+      Fairly intuitive. You can understand exactly what is going on because Ruby is incredibly reader and user friendly. Let's look at the same in JavaScript.
+    </p>
+
+    <p>
+      <pre>
+        <code>
+          var human = {}
+          human.greeting = function(name){
+          return "Hi " + name + "!";
+        }
+          human.smallTalk = function(location){
+          return "How's the weather in " + location + "?";
+        }
+        </code>
+      </pre>
+      This is, of course, only one way to write this as JavaScript accepts many ways of determining objects. But as you can see, there are less lines of code but more punctuation.
+    </p>
+
+    <p>
+     While I am just starting out with both languages, I did form a quick bond with Ruby, which I didn't with JavaScript. Both languages make sense to me and both are very necessary as a developer. Perhaps in future blog posts I have a stronger opinion for either! Until then, keep learning!
+    </p>
+
+    <p>Happy Coding!</p>
+
+  </section>
+</main>
+
+<footer>
+    <a href="http://facebook.com/julianna.rus"><img src="imgs/facebook.png" alt="facebook" height="25" width="25"></a>
+    <a href="http://twitter.com/juliannarusak"><img src="imgs/twitter.png" alt="twitter" height="25" width="25"></a>
+    <a href="#"><img src="imgs/rss.png" alt="rss" height="25" width="25"></a>
+    <a href="#"><img src="imgs/share.png" alt="share" height="25" width="25"></a>
+    <a href="#"><img src="imgs/mail.png" alt="mail" height="25" width="25"></a>
+
+  </footer>
+</html>
