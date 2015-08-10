@@ -1,0 +1,31 @@
+body{
+    margin:auto;
+    padding: 10px;
+}
+#top {
+   background-color:red;
+   text-align:center;
+   padding: 10px;
+}
+
+#left {
+   background-color:blue;
+   margin-left:auto;
+   float: left;
+   width: 45%;
+   padding:10px;
+}
+
+#right {
+    background-color:green;
+    margin-left:auto;
+    float: right;
+    width: 45%;
+    padding: 10px;
+}
+aside{
+    background-color:orange;
+    float: bottom;
+    clear: both;
+    padding: 10px;
+}
