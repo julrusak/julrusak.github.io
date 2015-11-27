@@ -10,8 +10,8 @@ header {
 }
 
 nav {
-border-bottom: 1px solid #dedede;
-display: block;
+  border-bottom: 1px solid #dedede;
+  display: block;
 }
 
 nav ul{
@@ -19,8 +19,24 @@ nav ul{
 }
 
 nav ul li {
-display: inline-block;
-padding: 0 25px;
+  display: inline-block;
+  padding: 0 25px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color:grey;
+}
+
+a:hover {
+  font-size: 1em;
+}
+
+a:active {
+  color:black;
 }
 
 section {
