@@ -56,6 +56,10 @@ section {
   display: inline-block;
 }
 
+.img-circle {
+    border-radius: 50%;
+}
+
 aside {
   position: inline;
   width: 30%;
