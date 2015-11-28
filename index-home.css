@@ -62,6 +62,10 @@ nav ul li a:active {
   padding-top: 30px;
 }
 
+.img-circle:hover {
+  opacity: 0.5;
+}
+
 
 footer {
    position:fixed;
