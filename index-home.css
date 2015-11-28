@@ -23,7 +23,7 @@ nav ul li {
   padding: 0 25px;
 }
 
-a {
+nav ul li a {
   text-decoration:none;
   transform: translateX(-50%) translateY(-50%);
   padding: 10px;
@@ -33,11 +33,11 @@ a {
   color: #e3e3e3;
 }
 
-a:visited {
+nav ul li a:visited {
   color:black;
 }
 
-a:hover {
+nav ul li a:hover {
 padding: 10px;
 text-decoration:none;
 font-size: 15px;
@@ -46,7 +46,7 @@ border: 2px solid grey;
 text-shadow: none;
 }
 
-a:active {
+nav ul li a:active {
   color:black;
 }
 
@@ -58,6 +58,7 @@ section {
 
 .img-circle {
     border-radius: 50%;
+    padding-top: 15px;
 }
 
 aside {
