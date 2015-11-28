@@ -50,25 +50,18 @@ nav ul li a:active {
   color:black;
 }
 
-section {
-  width: 40%;
-  margin-left: 20px;
+#image-links {
+  width: 100%;
+  text-align: center;
   display: inline-block;
 }
 
 .img-circle {
-    border-radius: 50%;
-    padding-top: 15px;
+  border-radius: 50%;
+  padding: 15px;
+  padding-top: 30px;
 }
 
-aside {
-  position: inline;
-  width: 30%;
-  float: right;
-  display: inline-block;
-  padding-bottom: 10px;
-
-}
 
 footer {
    position:fixed;
