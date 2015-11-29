@@ -9,6 +9,10 @@ header {
   border-bottom: 1px solid #dedede;
 }
 
+header h1 {
+  font-size: 3em;
+}
+
 nav {
   border-bottom: 1px solid #dedede;
   display: block;
@@ -20,7 +24,34 @@ nav ul{
 
 nav ul li {
   display: inline-block;
-  padding: 0 25px;
+  padding: 0 15px;
+}
+
+nav ul li a {
+  text-decoration:none;
+  transform: translateX(-50%) translateY(-50%);
+  padding: 10px;
+  transform-origin: 50% 50%;
+  border: 2px solid transparent;
+  transition: all .2s ease-in;
+  color: #e3e3e3;
+}
+
+nav ul li a:visited {
+  color:black;
+}
+
+nav ul li a:hover {
+padding: 10px;
+text-decoration:none;
+font-size: 15px;
+color: grey;
+border: 2px solid grey;
+text-shadow: none;
+}
+
+nav ul li a:active {
+  color:black;
 }
 section {
   position: static;
