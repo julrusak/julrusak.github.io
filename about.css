@@ -58,7 +58,7 @@ nav ul li a:active {
   position: relative;
   width: 90%;
   margin: auto;
-  padding: 10px;
+  padding: 20px;
 }
 
 #bio {
@@ -68,9 +68,10 @@ nav ul li a:active {
 }
 
 #fadein {
-  margin-right: 20%;
-  height: 200px;
   float: right;
+  padding-right: 20%;
+  margin-right: 20%;
+  height: 300px;
 }
 
 footer {
