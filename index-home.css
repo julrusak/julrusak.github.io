@@ -77,7 +77,6 @@ footer {
 }
 
 .photo-grid img {
-  border-radius: 50%;
   display: block;
   max-width: 100%;
 }
@@ -116,7 +115,6 @@ footer {
 }
 
 .photo-grid img {
-  border-radius: 50%;
   display: block;
   height: auto;
   -webkit-transition: all 300ms;
