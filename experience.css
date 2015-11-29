@@ -34,7 +34,7 @@ nav ul li a {
   transform-origin: 50% 50%;
   border: 2px solid transparent;
   transition: all .2s ease-in;
-  color: grey;
+  color: black;
 }
 
 nav ul li a:visited {
