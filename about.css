@@ -9,6 +9,10 @@ header {
   border-bottom: 1px solid #dedede;
 }
 
+header h1 {
+  font-size: 3em;
+}
+
 nav {
   border-bottom: 1px solid #dedede;
   display: block;
@@ -20,32 +24,96 @@ nav ul{
 
 nav ul li {
   display: inline-block;
-  padding: 0 25px;
+  padding: 0 15px;
 }
 
-section {
-  width: 70%;
-  margin-left: 50px;
-  display: relative;
+nav ul li a {
+  text-decoration:none;
+  transform: translateX(-50%) translateY(-50%);
+  padding: 10px;
+  transform-origin: 50% 50%;
+  border: 2px solid transparent;
+  transition: all .2s ease-in;
+  color: #e3e3e3;
 }
 
-aside {
-  position: inline;
-  width: 30%;
+nav ul li a:visited {
+  color:black;
+}
+
+nav ul li a:hover {
+padding: 10px;
+text-decoration:none;
+font-size: 15px;
+color: grey;
+border: 2px solid grey;
+text-shadow: none;
+}
+
+nav ul li a:active {
+  color:black;
+}
+
+#content {
+  position: relative;
+  width: 90%;
+  margin: auto;
+  padding: 10px;
+}
+
+#bio {
+  width: 40%;
+  height: 200px;
+  float: left;
+}
+
+#fadein {
+  margin-right: 20%;
+  height: 200px;
   float: right;
-  display: inline-block;
-  padding-bottom: 10px;
-
 }
 
 footer {
-   position:relative;
-   margin-top: 20px;
+   position:fixed;
    padding: 10px 0px;
    left:10px;
-   bottom:10px;
+   bottom:5px;
    height:50px;
    width:100%;
    border-top: 1px solid #dedede;
    border-bottom: 1px solid#dedede;
+}
+
+#fadein img {
+    position:absolute;
+    -webkit-animation-name: fade;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-duration: 6s;
+    animation-name: fade;
+    animation-iteration-count: infinite;
+    animation-duration: 6s;
+}
+
+@-webkit-keyframes fade {
+    0% {opacity: 0;}
+    20% {opacity: 1;}
+    33% {opacity: 1;}
+    53% {opacity: 0;}
+    100% {opacity: 0;}
+}
+@keyframes fade {
+    0% {opacity: 0;}
+    20% {opacity: 1;}
+    33% {opacity: 1;}
+    53% {opacity: 0;}
+    100% {opacity: 0;}
+}
+
+#f1 {
+}
+#f2 {
+    -webkit-animation-delay: -4s;
+}
+#f3 {
+    -webkit-animation-delay: -2s;
 }
