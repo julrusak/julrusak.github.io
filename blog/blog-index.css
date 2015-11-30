@@ -54,17 +54,11 @@ nav ul li a:active {
   color:black;
 }
 
-main {
-  margin-left: 25%;
+.post {
+  border: 1px solid grey;
+  padding: 15px;
+  margin: 15px;
 }
-
-table td {
-  text-align: center;
-  padding: 5px 15px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 
 footer {
    position:relative;

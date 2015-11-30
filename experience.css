@@ -53,6 +53,7 @@ text-shadow: none;
 nav ul li a:active {
   color:black;
 }
+
 section {
   position: static;
   margin-bottom: 25%;
