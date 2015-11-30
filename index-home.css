@@ -124,7 +124,6 @@ footer {
 }
 
 .photo-grid li:hover img {
-  border-radius: 50%;
   -webkit-transform: scale(1.4);
   -moz-transform: scale(1.4);
   transform: scale(1.4);
@@ -165,4 +164,18 @@ footer {
   -moz-transition-delay: 100ms;
   transition-delay: 100ms;
   z-index: 100;
+}
+
+#lighting-images {
+  position: relative;
+  padding-left: 15px;
+  margin-bottom: 25px;
+}
+
+.grow {
+  transition: all .2s ease-in-out;
+}
+
+.grow:hover {
+  transform: scale(1.5);
 }
