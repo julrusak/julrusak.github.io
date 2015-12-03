@@ -62,9 +62,10 @@ nav ul li a:active {
 }
 
 #bio {
-  width: 40%;
-  height: 200px;
+  width: 55%;
+  height: 100%;
   float: left;
+  padding-right: 15px;
 }
 
 #fadein {
@@ -85,38 +86,7 @@ footer {
    border-bottom: 1px solid#dedede;
 }
 
-#fadein img {
-    position:absolute;
-    -webkit-animation-name: fade;
-    -webkit-animation-iteration-count: infinite;
-    -webkit-animation-duration: 6s;
-    animation-name: fade;
-    animation-iteration-count: infinite;
-    animation-duration: 6s;
+#pics {
+  display: inline-block;
 }
-
-@-webkit-keyframes fade {
-    0% {opacity: 0;}
-    20% {opacity: 1;}
-    33% {opacity: 1;}
-    53% {opacity: 0;}
-    100% {opacity: 0;}
-}
-@keyframes fade {
-    0% {opacity: 0;}
-    20% {opacity: 1;}
-    33% {opacity: 1;}
-    53% {opacity: 0;}
-    100% {opacity: 0;}
-}
-
-#f1 {
-}
-#f2 {
-    -webkit-animation-delay: -4s;
-}
-#f3 {
-    -webkit-animation-delay: -2s;
-}
-
 
