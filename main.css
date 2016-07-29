@@ -179,3 +179,64 @@ footer {
 .grow:hover {
   transform: scale(1.5);
 }
+
+section {
+  position: static;
+  margin-bottom: 25%;
+}
+
+.left {
+  margin-left: 20px;
+  margin-top: 5em;
+  position: relative;
+  width: 45%;
+  height: 100%;
+  float:left;
+  text-align: right;
+}
+
+.right{
+  margin-top: 5em;
+  position: relative;
+  border-left: 1px solid #dedede;
+  width: 50%;
+  padding-left: 15px;
+  float: right;
+  text-align: left;
+}
+
+#break {
+  margin-top: 5em;
+}
+
+#content {
+  position: relative;
+  width: 90%;
+  margin: auto;
+  padding: 20px;
+}
+
+#bio {
+  width: 55%;
+  height: 100%;
+  float: left;
+  padding-right: 15px;
+}
+
+#fadein {
+  float: right;
+  padding-right: 20%;
+  margin-right: 20%;
+  height: 300px;
+}
+
+#pics {
+  padding-left: 25px;
+  display: inline-block;
+}
+
+.post {
+  border: 1px solid grey;
+  padding: 15px;
+  margin: 15px;
+}
