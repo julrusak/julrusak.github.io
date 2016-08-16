@@ -73,7 +73,7 @@ nav ul li a:active {
 }
 
 #intro span{
-  color: #c99065;
+  color: #9e9668;
 }
 
 /*--------- index images ----------*/
@@ -185,8 +185,8 @@ nav ul li a:active {
 }
 
 #about-me span{
-  color: #c99065;
-  border-bottom: 1px solid #c99065;
+  color: #9e9668;
+  border-bottom: 1px solid #9e9668;
   margin-bottom: 40px;
 }
 
@@ -231,10 +231,12 @@ section {
 
 footer {
    padding: 40px 10px;
-   left:10px;
-   bottom:5px;
+   text-align: center;
    height:80px;
    width:100%;
+}
+#connect a{
+  margin: 0 15px;
 }
 
 #connect div{
@@ -243,7 +245,7 @@ footer {
 
 #connect span{
   margin:0 auto;
-  color: #c99065;
-  border-bottom: 1px solid #c99065;
+  color: #9e9668;
+  border-bottom: 1px solid #9e9668;
   font-size: 4vh;
 }
