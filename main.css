@@ -65,6 +65,7 @@ nav ul li a:active {
   color:black;
 }
 
+
 #intro{
   padding-top: 80px;
   height: 100px;
@@ -249,4 +250,24 @@ footer {
   color: #9e9668;
   border-bottom: 1px solid #9e9668;
   font-size: 4vh;
+}
+
+/*--------------Yoga blog ----------------*/
+
+#container {
+  min-height: 100%;
+  text-align: center;
+  width: 100%;
+  background-color: #EFEFEF;
+  font-size: 4vh;
+  padding: 40px 0;
+}
+
+#yoga-intro{
+  margin-bottom: 30px;
+  padding-top: 80px;
+  height: 100px;
+  text-align: center;
+  font-size: 30px;
+  color: #404040;
 }

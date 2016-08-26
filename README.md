@@ -4,4 +4,4 @@ julrusak.github.io
 
 Click below to visit this website!
 
-http://julrusak.github.io/
+http://juliannarusak.com
