@@ -290,6 +290,7 @@ footer {
 }
 #posts a{
   text-decoration: none;
+  color: #404040;
 }
 #posts a:visited{
   color: #404040
