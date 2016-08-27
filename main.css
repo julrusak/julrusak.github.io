@@ -68,10 +68,10 @@ nav ul li a:active {
 
 #intro{
   padding-top: 80px;
-  height: 100px;
   text-align: center;
   font-size: 30px;
   color: #404040;
+  margin-bottom: 30px;
 }
 
 #intro span{
@@ -81,7 +81,6 @@ nav ul li a:active {
 /*--------- index images ----------*/
 
 .photo-grid {
-  height: 300px;
   margin: 1em auto;
   max-width: 1106px;
   text-align: center;
@@ -192,7 +191,7 @@ nav ul li a:active {
   margin-bottom: 40px;
 }
 
-#blurb {
+.blurb {
   width: 65%;
   margin: 0 auto;
   padding: 50px 0;
@@ -226,7 +225,7 @@ section {
   margin-top: 5em;
 }
 
-.post {
+.tech-post {
   padding: 15px;
   margin: 15px;
 }
@@ -254,7 +253,7 @@ footer {
 
 /*--------------Yoga blog ----------------*/
 
-#container {
+.container {
   min-height: 100%;
   text-align: center;
   width: 100%;
@@ -263,11 +262,97 @@ footer {
   padding: 40px 0;
 }
 
+.container span{
+  color: #9e9668;
+  border-bottom: 1px solid #9e9668;
+  margin-bottom: 40px;
+}
+
 #yoga-intro{
   margin-bottom: 30px;
   padding-top: 80px;
-  height: 100px;
   text-align: center;
   font-size: 30px;
   color: #404040;
+}
+
+#yoga-intro span{
+  color: #9e9668;
+}
+#yoga-intro img{
+  margin: 15px 0;
+}
+
+#posts {
+  text-align: left;
+  margin: 0 auto;
+  width: 80%;
+}
+#posts a{
+  text-decoration: none;
+}
+#posts a:visited{
+  color: #404040
+}
+#posts a{
+  text-decoration: none;
+}
+#posts ul li{
+  padding:0 20px;
+  list-style: none;
+  border: 1px solid #dedede;
+  border-radius: 5px;
+  box-shadow: 0 1px 4px rgba(0,0,0, 0.6);
+}
+
+#posts ul li h4{
+  margin: 0 !important;  
+}
+
+#posts ul li p{
+  margin: 0 !important; 
+  font-size: 2vh; 
+}
+.post-header{
+  width: 100%;
+}
+.post-intro{
+  display: inline-flex;
+  margin:10px 0;
+}
+.post-intro div {
+  display: inline-block;
+}
+.post-intro-text{
+  width: 70%;
+  font-size: 3vh;
+}
+.img-container{
+  width: 25%;
+}
+
+.post {
+  width: 100%;
+  background-color: #EFEFEF;
+  padding: 40px 0;
+}
+.post-title, .post-date{
+  margin-left: 10%;
+  color: #9e9668;
+}
+.post-title span{
+  border-bottom: 1px solid #9e9668;
+  font-size: 5vh;
+}
+.post-image{
+  margin: 0 auto;
+  text-align: center;
+}
+.post-body {
+  width: 80%;
+  margin: 0 auto;
+  text-align: left;
+}
+.post-body p {
+  font-size: 4vh;
 }
