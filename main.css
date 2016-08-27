@@ -299,6 +299,8 @@ footer {
   text-decoration: none;
 }
 #posts ul li{
+  width: 69%;
+  margin: 0 auto;
   padding:0 20px;
   list-style: none;
   border: 1px solid #dedede;
@@ -317,19 +319,20 @@ footer {
 .post-header{
   width: 100%;
 }
+.post-header h4{
+  font-size: 26px;
+}
 .post-intro{
   display: inline-flex;
   margin:10px 0;
+  width: 100%;
 }
 .post-intro div {
   display: inline-block;
 }
 .post-intro-text{
-  width: 70%;
+  width: 100%;
   font-size: 3vh;
-}
-.img-container{
-  width: 25%;
 }
 
 .post {
