@@ -1,5 +1,5 @@
 julrusak.github.io
 ==================
-## Hello world!
+## Portfolio page under construction, stay tuned for the final product!
 
 
