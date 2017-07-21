@@ -1,95 +1,73 @@
-html {
-font-family: 'Scheherazade', serif;
-}
-
 body {
-  margin: 0;
-}
+  font-family: 'Scheherazade', serif;
+  margin: 0; }
 
 header {
-  border-bottom: 1px solid #dedede;
+  border-bottom: 1px solid #f1f1f1;
   padding: 10px;
   clear: both;
-  overflow: auto;
-  
-}
+  overflow: auto; }
 
 header h1 {
-  text-align: left;
-}
+  text-align: left; }
 
 #logo {
-  float: left;
-}
+  float: left; }
 
 nav {
-
   display: block;
-  float: right;
-}
+  float: right; }
 
-nav ul{
-  text-align: right;
-}
+nav ul {
+  text-align: right; }
 
 nav ul li {
   font-size: 3vh;
   color: #404040;
   display: inline-block;
-  padding: 0 15px;
-}
+  padding: 0 15px; }
 
 nav ul li a {
-  text-decoration:none;
+  text-decoration: none;
   transform: translateX(-50%) translateY(-50%);
   padding: 10px;
   transform-origin: 50% 50%;
   border: 2px solid transparent;
   transition: all .2s ease-in;
-  color: black;
-}
+  color: black; }
 
 nav ul li a:visited {
-  color:#404040;
-}
+  color: #404040; }
 
 nav ul li a:hover {
-padding: 10px;
-text-decoration:none;
-color: #999999;
-border-bottom: 1px solid #999999;
-text-shadow: none;
-}
+  padding: 10px;
+  text-decoration: none;
+  color: #999999;
+  border-bottom: 1px solid #999999;
+  text-shadow: none; }
 
 nav ul li a:active {
-  color:black;
-}
+  color: black; }
 
-
-#intro{
+#intro {
   padding-top: 80px;
   text-align: center;
   font-size: 30px;
   color: #404040;
-  margin-bottom: 30px;
-}
+  margin-bottom: 30px; }
 
-#intro span{
-  color: #9e9668;
-}
+#intro span {
+  color: #9e9668; }
 
 /*--------- index images ----------*/
-
 .photo-grid {
   margin: 1em auto;
   max-width: 1106px;
-  text-align: center;
-}
+  text-align: center; }
 
 .photo-grid li {
   display: inline-block;
-  margin: 1em;
-}
+  margin: 1em; }
 
 .photo-grid img {
   display: block;
@@ -99,18 +77,16 @@ nav ul li a:active {
   height: auto;
   -webkit-transition: all 300ms;
   -moz-transition: all 300ms;
-  transition: all 300ms;
-}
+  transition: all 300ms; }
 
 .photo-grid figure {
   height: 200px;
   overflow: hidden;
   position: relative;
-  width: 200px;
-}
+  width: 200px; }
 
 .photo-grid figcaption {
-  background: rgba(0,0,0,0.8);
+  background: rgba(0, 0, 0, 0.8);
   color: white;
   display: table;
   height: 100%;
@@ -120,8 +96,7 @@ nav ul li a:active {
   right: 0;
   top: 0;
   z-index: 100;
-  border-radius: 50%;
-}
+  border-radius: 50%; }
 
 .photo-grid figcaption p {
   display: table-cell;
@@ -130,13 +105,11 @@ nav ul li a:active {
   top: -40px;
   width: 289px;
   vertical-align: middle;
-  border-radius: 50%;
-}
+  border-radius: 50%; }
 
 .photo-grid li:hover figcaption {
   opacity: 1;
-  border-radius: 50%;
-}
+  border-radius: 50%; }
 
 .photo-grid figcaption p {
   display: table-cell;
@@ -147,17 +120,15 @@ nav ul li a:active {
   -webkit-transition: all 300ms ease-out;
   -moz-transition: all 300ms ease-out;
   transition: all 300ms ease-out;
-  vertical-align: middle;
-}
+  vertical-align: middle; }
 
 .photo-grid li:hover figcaption p {
   -moz-transform: translateY(40px);
   -webkit-transform: translateY(40px);
-  transform: translateY(40px);
-}
+  transform: translateY(40px); }
 
 .photo-grid figcaption {
-  background: rgba(0,0,0,0.8);
+  background: rgba(0, 0, 0, 0.8);
   color: white;
   display: table;
   height: 100%;
@@ -172,77 +143,18 @@ nav ul li a:active {
   -webkit-transition-delay: 100ms;
   -moz-transition-delay: 100ms;
   transition-delay: 100ms;
-  z-index: 100;
-}
+  z-index: 100; }
 
 /*---------- end of images ----------*/
-
-#about-me {
-  text-align: center;
-  width: 100%;
-  background-color: #EFEFEF;
-  font-size: 4vh;
-  padding: 40px 0;
-}
-
-#about-me span{
-  color: #9e9668;
-  border-bottom: 1px solid #9e9668;
-  margin-bottom: 40px;
-}
-
-.blurb {
-  width: 65%;
-  margin: 0 auto;
-  padding: 50px 0;
-}
-
-section {
-  position: static;
-}
-
-.left {
-  margin-left: 20px;
-  margin-top: 5em;
-  position: relative;
-  width: 45%;
-  height: 100%;
-  float:left;
-  text-align: right;
-}
-
-.right{
-  margin-top: 5em;
-  position: relative;
-  border-left: 1px solid #dedede;
-  width: 50%;
-  padding-left: 15px;
-  float: right;
-  text-align: left;
-}
-
-#break {
-  margin-top: 5em;
-}
-
 footer {
-   padding: 40px 10px;
-   text-align: center;
-   height:80px;
-   width:100%;
-}
-#connect a{
-  margin: 0 15px;
-}
-
-#connect div{
+  position: absolute;
+  bottom: 10px;
+  margin: 0 auto;
+  padding: 40px 10px;
   text-align: center;
-}
+  height: 80px;
+  width: 100%; }
+  footer a {
+    margin: 0 15px; }
 
-#connect span{
-  margin:0 auto;
-  color: #9e9668;
-  border-bottom: 1px solid #9e9668;
-  font-size: 4vh;
-}
-
+/*# sourceMappingURL=main.css.map */
