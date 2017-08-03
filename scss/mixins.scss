@@ -34,6 +34,9 @@ $xsmall-under: (max-width $xsmall);
 $header_height_desktop: 100px;
 $header_height_small: 158px;
 
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300');
+$mont: 'Montserrat';
+
 @mixin headerMarginHeight() {
 	margin-top:$header_height_desktop;
 	@include breakpoint($small-under) {
