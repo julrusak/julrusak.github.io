@@ -18,10 +18,11 @@ header {
         #name {
             font-size: 40px;
         }
-        .hamburger {
+        #hamburger {
             display: flex;
             flex-direction: column;
             justify-content: center;
+            cursor: pointer;
             span {
                 display: block;
                 width: 33px;
@@ -41,6 +42,21 @@ header {
             }
             span:nth-last-child(2) {
                 transform-origin: 0% 100%;
+            }
+            &.open {
+                span {
+                    opacity: 1;
+                    transform: rotate(45deg) translate(-2px, -1px);
+                    background: #232323;
+                }
+                span:nth-last-child(3) {
+                    opacity: 0;
+                    transform: rotate(0deg) scale(0.2, 0.2);
+                }
+                span:nth-last-child(2) {
+                    opacity: 1;
+                    transform: rotate(-45deg) translate(0, -1px);
+                }
             }
         }
     }
@@ -122,6 +138,9 @@ header {
                 }
             }
         }
+        &.open {
+            display: block;
+        }
     }
 }
 
@@ -129,6 +148,78 @@ header {
 
 main {
     padding: 5%;
+    #about {
+        height: 100vh;
+        max-height: 800px;
+        #about-content {
+            display: flex;
+            align-items: center;
+            height: 100vh;
+            max-height: 800px;
+            .text-box {
+                width: 49%;
+                p {
+                    font-size: 20px;
+                    line-height: 1.7;
+                    padding: 4%;
+                }
+            }
+            .about-pic {
+                width: 50%;
+                img {
+                    width: 50%;
+                    display: block;
+                    margin: 0 auto;
+                }
+            }
+        }
+        .arrow {
+            position: relative;
+            a {
+                position: absolute;
+                bottom: 20px;
+                left: 50%;
+                padding-top: 60px;
+                z-index: 2;
+                display: inline-block;
+                -webkit-transform: translate(0, -50%);
+                transform: translate(0, -50%);
+                color: #000;
+                font : normal 400 20px/1 'Josefin Sans', sans-serif;
+                letter-spacing: .1em;
+                text-decoration: none;
+                transition: opacity .3s;
+                span {
+                    position: absolute;
+                    top: 0;
+                    left: 50%;
+                    width: 46px;
+                    height: 46px;
+                    margin-left: -23px;
+                    border: 2px solid #000;
+                    border-radius: 100%;
+                    box-sizing: border-box;
+                }
+                span::after {
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    content: '';
+                    width: 16px;
+                    height: 16px;
+                    margin: -12px 0 0 -8px;
+                    border-left: 2px solid #000;
+                    border-bottom: 2px solid #000;
+                    -webkit-transform: rotate(-45deg);
+                    transform: rotate(-45deg);
+                    box-sizing: border-box;
+                }
+            }
+            a:hover {
+                opacity: .5;
+            }    
+        }
+    }
     #work-header {
         text-align: center;
         font-size: 35px;
