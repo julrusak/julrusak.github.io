@@ -115,14 +115,18 @@ header {
       display: block; }
 
 main {
-  padding: 5%; }
+  padding: 0 5%; }
   main #about {
     height: 100vh;
     max-height: 800px; }
+    main #about #about-header {
+      text-align: center;
+      font-size: 35px;
+      padding-top: 5%; }
     main #about #about-content {
       display: flex;
       align-items: center;
-      height: 100vh;
+      height: 75%;
       max-height: 800px; }
       main #about #about-content .text-box {
         width: 49%; }
@@ -133,11 +137,12 @@ main {
       main #about #about-content .about-pic {
         width: 50%; }
         main #about #about-content .about-pic img {
-          width: 50%;
+          width: 70%;
           display: block;
           margin: 0 auto; }
     main #about .arrow {
-      position: relative; }
+      position: relative;
+      height: 100px; }
       main #about .arrow a {
         position: absolute;
         bottom: 20px;
@@ -189,9 +194,9 @@ main {
     padding-top: 100px; }
     main #work-images .image-holder {
       position: relative;
-      margin-bottom: 100px;
-      height: 275px;
-      width: 480px;
+      margin: 0 30px 100px;
+      height: 240px;
+      width: 400px;
       z-index: 1; }
       main #work-images .image-holder img {
         height: 100%;
@@ -309,6 +314,8 @@ main {
 
 /*---------- end of images ----------*/
 footer {
+  background: url(../images/paint-background.jpg) no-repeat fixed center;
+  background-size: cover;
   bottom: 10px;
   margin: 0 auto;
   padding: 40px 10px;

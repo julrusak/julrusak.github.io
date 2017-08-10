@@ -147,14 +147,19 @@ header {
 
 
 main {
-    padding: 5%;
+    padding: 0 5%;
     #about {
+        #about-header {
+            text-align: center;
+            font-size: 35px;
+            padding-top: 5%;
+        }
         height: 100vh;
         max-height: 800px;
         #about-content {
             display: flex;
             align-items: center;
-            height: 100vh;
+            height: 75%;
             max-height: 800px;
             .text-box {
                 width: 49%;
@@ -167,7 +172,7 @@ main {
             .about-pic {
                 width: 50%;
                 img {
-                    width: 50%;
+                    width: 70%;
                     display: block;
                     margin: 0 auto;
                 }
@@ -175,6 +180,7 @@ main {
         }
         .arrow {
             position: relative;
+            height: 100px;
             a {
                 position: absolute;
                 bottom: 20px;
@@ -233,9 +239,9 @@ main {
         padding-top: 100px;
         .image-holder {
             position: relative;
-            margin-bottom: 100px;
-            height: 275px;
-            width: 480px;
+            margin: 0 30px 100px;
+            height: 240px;
+            width: 400px;
             z-index: 1;
             img {
                 height: 100%; 
@@ -377,6 +383,8 @@ main {
 /*---------- end of images ----------*/
 
 footer {
+    background: url(../images/paint-background.jpg) no-repeat fixed center;
+    background-size: cover;
     bottom: 10px;
     margin: 0 auto;
     padding: 40px 10px;
