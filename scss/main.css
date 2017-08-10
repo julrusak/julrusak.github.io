@@ -182,6 +182,20 @@ main {
           box-sizing: border-box; }
       main #about .arrow a:hover {
         opacity: .5; }
+    @media screen and (max-width: 600px) {
+      main #about #about-content {
+        display: block;
+        height: 100%; }
+        main #about #about-content .text-box {
+          width: 100%; }
+          main #about #about-content .text-box p {
+            font-size: 17px; }
+        main #about #about-content .about-pic {
+          width: 100%; }
+          main #about #about-content .about-pic img {
+            width: 90%; }
+      main #about .arrow {
+        display: none; } }
   main #work-header {
     text-align: center;
     font-size: 35px; }
