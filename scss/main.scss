@@ -225,7 +225,8 @@ main {
                 opacity: .5;
             }    
         }
-        @media screen and (max-width: $small) {
+        @media (max-width: $small) {
+            background-color: red;
             #about-content {
                 display: block;
                 height: 100%;
