@@ -11,7 +11,6 @@ header {
     border-bottom: 1px solid $lightGrey;
     padding: 40px 10%;
     height: 100vh;
-    width: 100%;
     color: white;
     .header-text {
         display: flex;
@@ -106,7 +105,7 @@ header {
             opacity: .5;
         }
         @media (max-width: $small) {
-            display: none;
+            // display: none;
         }    
     }
     nav {
@@ -155,7 +154,7 @@ main {
     #about {
         #about-header {
             text-align: center;
-            font-size: 35px;
+            font-size: 40px;
             padding-top: 5%;
         }
         height: 100vh;
@@ -237,6 +236,7 @@ main {
                     width: 100%;
                     p {
                         font-size: 14px;
+                        margin: 40px 0;
                     }
                 }
                 .about-pic {
@@ -253,51 +253,59 @@ main {
     }
     #work-header {
         text-align: center;
-        font-size: 35px;
+        font-size: 40px;
+        margin-bottom: 70px;
     }
-    #work-images {
-        max-width: 1200px;
-        margin: auto;
-        display: flex;
-        justify-content: space-around;
-        flex-wrap: wrap;
-        padding-top: 100px;
-        .image-holder {
-            position: relative;
-            margin: 0 30px 100px;
-            height: 240px;
-            width: 400px;
-            z-index: 1;
-            img {
-                height: 100%; 
-                max-width: 100%; 
-                border: 1px solid $lightGrey;
-            }
-            .overlay {
-                position: absolute;
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                top: 0;
-                left: 0;
-                background: transparent;
-                z-index: 3;
-                height: 101%;
-                width: 100.5%;
-                transition: all 0.3s;
-                -webkit-transition: all 0.3s;
-                span {
-                    color: white;
-                    font-size: 30px;
-                    display: none;
-                    height: 40px;
-                    margin: 0 20px;
+    #work-list {
+        .work-row {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: 400px;
+            grid-gap: 25px;
+            grid-auto-flow: dense;
+            grid-auto-rows: minmax(60px, auto);
+            .work-image { 
+                position: relative;
+                img {
+                    width: 100%;
+                    max-width: 500px;
+                    display: block;
+                    margin: 0 auto;
                 }
-                &:hover {
-                    background: rgba(0,0,0,0.85);
-                    span {
-                        display: block;
-                    }
+            }
+            .work-text {
+                margin: 0 auto;
+                padding: 35px 0;
+                a {
+                    text-decoration: none;
+                    font-size: 30px;
+                    color: black;
+                }
+                span {
+                    position: relative;
+                }
+            }
+            &.row-odd {
+                .work-image {
+                    grid-column: 1;
+                }
+                .work-text {
+                    grid-column: 2;
+                }
+            }
+            &.row-even {
+                .work-image {
+                    grid-column: 2;
+                }
+                .work-text {
+                    grid-column: 1;
+                }
+            }
+            @media (max-width: $small) {
+                display: block;
+                .work-text {
+                    text-align: center;
+                    margin: 15px auto 40px;
                 }
             }
         }
@@ -415,7 +423,6 @@ footer {
     padding: 40px 10px;
     text-align: center;
     height:80px;
-    width:100%;
     a {
         margin: 0 15px;
     }
