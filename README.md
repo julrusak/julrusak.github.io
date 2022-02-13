@@ -1,6 +1,2 @@
-jrusak.co
-==================
-## Portfolio page under construction, stay tuned for the final product!
-
-
+My personal [website](juliannarusak.com) - head over and learn more about me. 
 
