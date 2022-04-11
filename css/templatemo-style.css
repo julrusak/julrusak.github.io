@@ -7,11 +7,11 @@ http://www.templatemo.com/tm-498-stimulus
 */
 
 body {
-	background: #ffffff;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-style: normal;
-	font-weight: 300;
-    overflow-x: hidden;
+  background: #ffffff;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  overflow-x: hidden;
 }
 
 html,body {
@@ -668,6 +668,9 @@ footer {
     height: auto;
     padding-top: 32px;
     padding-bottom: 12px;
+  }
+  #home .home-img {
+    height: 50vh;
   }
 
   #home .container,
