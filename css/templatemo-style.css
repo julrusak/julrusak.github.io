@@ -46,8 +46,8 @@ h2 {
 }
 
 h3 {
-  font-size: 26px;
-  line-height: 32px;
+  font-size: 24px;
+  line-height: 30px;
   padding-bottom: 6px;
 }
 
@@ -277,8 +277,7 @@ a:hover, a:active, a:focus {
 }
 
 .custom-navbar .navbar-brand {
-    color: #333;
-	text-shadow: 1px 1px #fff;
+    color: #2c2828;
     font-weight: bold;
     font-size: 24px;
     line-height: 35px;
@@ -453,7 +452,7 @@ a:hover, a:active, a:focus {
 }
 
 #experience small {
-  color: #633;
+  color: #3c2525;
   font-weight: bold;
 }
 
@@ -479,7 +478,7 @@ a:hover, a:active, a:focus {
 }
 
 #education small {
-  color: #886D1E;
+  color: #312a13;
   font-weight: bold;
 }
 
