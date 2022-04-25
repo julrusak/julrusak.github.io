@@ -165,19 +165,18 @@ footer {
 .color-white {
   color: #ffffff;
 }
-
 .color-yellow {
   color: #E3AE57;
 }
-
 .bg-yellow {
   background: #E3AE57;
 }
-
 .bg-white {
   background: #ffffff;
 }
-
+.bg-orange {
+  background: #E9724C;
+}
 .bg-dark {
   background: #161616;
 }
