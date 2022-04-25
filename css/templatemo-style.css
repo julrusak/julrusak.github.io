@@ -70,11 +70,11 @@ strong {
 }
 
 p {
-    color: #1a1919;
-    font-size: 16px;
-    font-weight: 300;
-    line-height: 28px;
-    letter-spacing: 0.2px;
+  color: #1a1919;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 28px;
+  letter-spacing: 0.2px;
 }
 
 .section-btn {
@@ -142,7 +142,9 @@ footer {
   text-align: center;
 }
 
-#experience,
+#experience {
+  background: #A54657;
+}
 #education {
   background: #E9724C;
 }
@@ -179,7 +181,12 @@ footer {
 .bg-dark {
   background: #161616;
 }
-
+.bg-seaweed {
+  background: #087F8C;
+}
+.bg-plum {
+  background: #A54657;
+}
 
 
 /*---------------------------------------
@@ -461,7 +468,7 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 
 #education {
-  background: #E3AE57;
+  background: #087F8C;
 }
 
 #education .education-img {
