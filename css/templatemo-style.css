@@ -125,6 +125,7 @@ p {
 #experience .container,
 #service .container,
 #education .container,
+#error .container,
 #contact .container {
   width: 100%;
   padding: 0;
@@ -138,6 +139,7 @@ p {
 
 #service,
 #quotes,
+#error,
 footer {
   text-align: center;
 }
@@ -488,6 +490,35 @@ a:hover, a:active, a:focus {
   font-weight: bold;
 }
 
+/*---------------------------------------
+    Error section              
+-----------------------------------------*/
+
+#error {
+  background: #087F8C;
+  background-size: cover;
+  background-position: center center;
+  padding: 100px 0px;
+  position: relative;
+  height: 75vh;
+}
+
+#error .media .fa {
+  font-size: 42px;
+  margin-right: 14px;
+}
+
+#error h2 {
+  color: #ffffff;
+  padding-top: 32px;
+  font-weight: 500;
+}
+
+#error small {
+  color: #312a13;
+  font-weight: bold;
+}
+
 
 
 /*---------------------------------------
@@ -597,7 +628,7 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 
 footer {
-    padding: 140px 0px;
+    padding: 40px 0px;
 }
 
 
